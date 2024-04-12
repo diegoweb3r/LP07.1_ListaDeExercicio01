@@ -19,10 +19,11 @@ public class Exercicio14 {
 		}
 		
 		for (int i = 0; i < 2; i++) {
+			fatorial = 1;
 			for (int j = 1; j <= a[i]; j++) {
 				fatorial = fatorial * j;
-				b[i] = fatorial;
 			}
+			b[i] = fatorial;
 		}
 		
 		for(int i = 0; i < 2; i++) {
